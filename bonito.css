@@ -1,0 +1,449 @@
+.cabeçalho {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(29, 29, 29);
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-color: brown;
+    border-spacing: 10%;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 15%;
+    left: 2%;
+
+}
+
+.titulo {
+    background-color: rgb(29, 29, 29);
+    color: azure;
+    width: 120px;
+    height: 50px;
+    box-shadow: 2px 2px 5px 2px black;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 100ms;
+}
+
+.titulo:hover {
+    background-color: rgb(29, 29, 29);
+    color: rgb(196, 17, 17);
+    width: 120px;
+    height: 50px;
+    box-shadow: 2px 2px 5px 2px black;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.sistemas {
+    font: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fichas {
+    font: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.foco {
+    width: 80%;
+    min-height: calc(100vh - 50px);
+    background-color: rgb(37, 37, 37, 0.98);
+    margin: 0 10%;
+    padding: 0%;
+}
+
+.formato {
+    display: grid;
+    align-items: center;
+
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, 120px);
+    padding: 20px;
+}
+
+.formato2 {
+    display: grid;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, 120px);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1,
+h2 {
+
+    margin-top: 0px;
+    font-size: xx-large;
+    margin-bottom: 0%;
+
+
+}
+
+body,
+html {
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/41/671/736/hytale-rpg-video-games-hd-wallpaper-f980c88d61eacd4b66e718dfc0e136ad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.card1 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://assets-prd.ignimgs.com/2023/01/26/cyberpunkred-1674718101240.jpg);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card1:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.card2 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://abcdorpg.com/wp-content/uploads/2021/03/Tormenta-20-o-que-mudou.jpg);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card2:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.card3 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://m.media-amazon.com/images/I/81CJ-m4FlZL._AC_UF1000,1000_QL80_.jpg);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card3:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.card4 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://imgv2-1-f.scribdassets.com/img/document/702596686/original/ac78406ec1/1723942450?v=1);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card4:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.card5 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://i0.wp.com/jogaod20.com/wp-content/uploads/2020/10/skyfall-rpg-2.jpeg?fit=1000%2C1000&ssl=1);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card5:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.card6 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://www.rederpg.com.br/wp/wp-content/uploads/2011/11/Terra-Devastada-Capa.jpg);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card6:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.card7 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://m.media-amazon.com/images/I/71kOBUNxvIL._AC_UF1000,1000_QL80_.jpg);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card7:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.card8 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://mfiles.alphacoders.com/101/1013058.jpeg);
+    background-size: 120px 150px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card8:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+.card9 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://imgv2-2-f.scribdassets.com/img/document/678983659/original/c949323834/1723269642?v=1);
+    background-size: 120px 150px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card9:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+.card10 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/pt/1/19/Cyberpunk_2020_capa.jpeg);
+    background-size: 120px 150px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card10:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+.card11 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://bibliotecaelfica.org/wp-content/uploads/2023/01/dd-5e-livro-do-jogador-fundo-branco-biblioteca-c3a9lfica.jpg);
+    background-size: 120px 150px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card11:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+.card12 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://bibliotecaelfica.org/wp-content/uploads/2023/01/dd-5e-guia-do-mestre-biblioteca-c3a9lfica.jpg);
+    background-size: 120px 150px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.card12:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+
+.ficha1 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://imgv2-1-f.scribdassets.com/img/document/568219960/original/31720eb96f/1721348267?v=1);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha1:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.ficha2 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://preview.redd.it/q5iwr286o4m71.png?width=1045&format=png&auto=webp&s=315f2195afcb6a2c8e8aee841d8f28a4e35759e9);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha2:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.ficha3 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://preview.redd.it/8q1pnhzvrxh91.png?width=385&format=png&auto=webp&s=feaa06bfe9db3f340127262e8a65e8afd97d826a);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha3:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.ficha4 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://d20ohkaloyme4g.cloudfront.net/img/document_thumbnails/d0cf96bed1832c72578e3343af31d2d1/thumb_1200_1698.png);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha4:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.ficha5 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://d20ohkaloyme4g.cloudfront.net/img/document_thumbnails/54448d667f14f38a90d534a5aa8e20d4/thumb_1200_1697.png);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha5:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.ficha6 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://imgv2-1-f.scribdassets.com/img/document/519340391/original/6d1b63bf0b/1719866044?v=1);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha6:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.ficha7 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://imgv2-1-f.scribdassets.com/img/document/669662733/original/ec34a34a4d/1721169482?v=1);
+    background-size: 120px 150px;
+
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha7:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.ficha8 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://imgv2-2-f.scribdassets.com/img/document/647424015/original/204aab5f71/1723952945?v=1);
+    background-size: 120px 150px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha8:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+.ficha9 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://user-images.githubusercontent.com/11249408/67726360-5b2b9580-f9c4-11e9-864c-7b58e115e72e.PNG);
+    background-size: 120px 150px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha9:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+.ficha10 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://imgv2-1-f.scribdassets.com/img/document/490322181/original/8c61e73773/1725123182?v=1);
+    background-size: 120px 150px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha10:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
+.ficha11 {
+    width: 120px;
+    height: 150px;
+    background-image: url(https://files.passeidireto.com/937a2473-1e56-4215-9ee5-f52a7b2fc02d/bg1.png);
+    background-size: 120px 150px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition: 500ms;
+}
+
+.ficha11:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 2px black;
+}
